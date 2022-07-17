@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h3>Ordering Page</h3>
+<body>
+    <!--Image for the page-->
+    <img src ="https://picjumbo.com/wp-content/uploads/young-couple-enjoying-an-ice-cream-free-photo-2210x1473.jpg" alt="Enjoying icea cream" width = "300">
+    <p>Please fill out the information as completely as possible thanks and enjoy your treat!</p>
+    <!--Customer ordering information-->
+    <form action = "process.php" method ="POST">
+        <div>
+        <label>FirstName</label>
+        <input type = "text" name = "firstName" placeholder="Enter First Name">
+        </div>
+        <br>
+        <div>
+        <label>Last Name</label>
+        <input type = "text" name = "lastName" placeholder="Enter Last Name">
+        </div>
+        <br>
+        <div>
+        <label>Phone</label>
+        <input type = "tel" name = "phone" placeholder="Enter as XXX-XXX-XXXX">
+        </div>
+        <br>
+        <label>Size</label>
+        <input type = "text" name = "size" placeholder = "Enter size">
+        <label>Flavor</label>
+        <input type = "text" name = "flavor"placeholder = "Enter Flavor">
+        <label>Topping</label>
+        <input type = "text" name = "topping" placeholder = "Enter Topping">
+        <br>
+        <br>
+        <div>
+        <input type = "submit" name = "submit" value = "Submit">
+        </div>
+    </form>
+    <br>
+    <!--Links to other pages-->
+    <a href = "IceCream.html">Home Page</a>
+    <br>
+    <a href = "icecream2.html">Please Select Flavor Size and Toppings</a>
+</body>
+</html>
