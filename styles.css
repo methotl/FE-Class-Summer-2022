@@ -1,0 +1,77 @@
+.page1{
+    background-color:forestgreen;
+    color: midnightblue;
+}
+
+h1:hover{
+    background-color: blueviolet;
+}
+
+.page2{
+    background-color: rgba(69, 206, 28, 0.548);
+    color:orange;
+}
+
+.page3{
+    background-color: firebrick;
+    color: yellow;
+}
+
+.rainbow-text {
+    text-align: center;
+    font-size: 1rem;
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.name1{
+    color:chocolate;
+}
+
+.toppingsbutton{
+    background-color: rgba(209, 126, 30, 0.767);
+}
+
+.orderbutton{
+    background-color:yellow;
+}
+
+.homebutton{
+    background-color: rgba(34, 21, 214, 0.815);
+}
+
+.page{
+    text-align: center;
+}
+.tabletop{
+    color:darkgreen;
+    text-align: center;
+}
+
+.list{
+    background-color: purple;
+    color:yellow;
+}
+
+table {
+    table-layout: fixed;
+    width:100%;
+    border-collapse: collapse;
+    border: 3px plum
+}
+
+.row1{color:darkred;}
+.row2{color:darkorange;}
+.row3{color:lime;}
+.row4{color:gold;}
+
+label{color:firebrick;}
